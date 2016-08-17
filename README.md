@@ -5,3 +5,4 @@ The Arduino-HDK Shield was a prototype that later became a ready-for-production 
 2.0.0 code includes: Set Time option, Posting every 1-1:30 minutes (depending on door closing and opening), Uses PIN0 and PIN1 for Hardware Serial UART communication, Reads from pins 5, 6, and 7 for sensor info and M2X
 Pin 7 uses Wire and oneWire (based on I2C protocol) to post temperature data using a Dallas temperature sensor. Pins 5 and 6 use digitalRead to read IR sensors. 
 
+Included in this project is the Arduino Pro Mini code that was used to control the HDK and the schematic and board files for the PCB. 
